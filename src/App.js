@@ -5,11 +5,7 @@ import HomeItems from './components/HomeItems';
 function App() {
 
   return (
-      <>
         <Layout/>
-          <HomeItems/>
-      </>
-
   );
 }
 
