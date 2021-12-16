@@ -42,3 +42,7 @@ code:before,
 code:after {
   content: '\`';
 }
+
+.header-logo {
+  width: 7rem;
+}

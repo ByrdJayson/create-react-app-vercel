@@ -1,11 +1,15 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
 import './App.css';
-
+import Layout from "./components/Layout";
+import HomeItems from './components/HomeItems';
 function App() {
 
   return (
-    <h1>Vercel Deployment Test</h1>
+      <>
+        <Layout/>
+          <HomeItems/>
+      </>
+
   );
 }
 
